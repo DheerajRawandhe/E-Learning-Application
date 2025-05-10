@@ -19,11 +19,11 @@ Admin Panel: Admins can manage users, courses, and payments.
 
 
 # Tech-Stack
-Frontend: React.js, Redux, Tailwind CSS
-Backend: Node.js, Express.js
-Database: MySQL (using mysql2 library)
-Authentication: JWT (JSON Web Tokens)
-Payment Gateway: Stripe API
-Version Control: Git, GitHub
+- Frontend: React.js, Redux, Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: MySQL (using mysql2 library)
+- Authentication: JWT (JSON Web Tokens)
+- Payment Gateway: Stripe API
+- Version Control: Git, GitHub
 
->>>>>>> 0d89a4d (Add readme)
+
