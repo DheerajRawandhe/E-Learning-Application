@@ -1,5 +1,5 @@
 # E-Learning
-<<<<<<< HEAD
+
 This is a full-stack E-Learning Management System built using React.js, Node.js, Express.js, and MySQL. It allows students to learn online and instructors to upload and manage courses.
 
 The E-Learning Management System is an online platform that allows students to access courses, track their progress, and make payments for course enrollments. Instructors can upload, manage, and organize their courses, including lectures, assignments, and quizzes. This project is built using React.js, Node.js, Express.js, and MySQL.
@@ -55,5 +55,5 @@ The E-Learning Management System is an online platform that allows students to a
 - Payment Gateway: Stripe API
 - Version Control: Git, GitHub
 
->>>>>>> b2ff65130b3460b9c42e674d8ea760187cdc41b3
+
 
