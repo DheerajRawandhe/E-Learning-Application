@@ -39,8 +39,6 @@ const Navbar = () => {
           <Link to="/">
             <h1 className="hidden md:block font-extrabold text-2xl e-lern">
               E-Learning
-              {/* Learnify ,BrainBox*/}
-    
             </h1>
           </Link>
         </div>
