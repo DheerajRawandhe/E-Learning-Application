@@ -40,8 +40,7 @@ const Navbar = () => {
             <h1 className="hidden md:block font-extrabold text-2xl e-lern">
               E-Learning
               {/* Learnify ,BrainBox*/}
-              {/* Skill-Boost */}
-              {/* Online Learning */}
+    
             </h1>
           </Link>
         </div>
