@@ -19,7 +19,7 @@ Progress Tracking: Students can track their progress in enrolled courses, view c
 Admin Panel: Admins can manage users, courses, and payments.
 
 
-# Tech-Stack
+## Tech-Stack
 Frontend: React.js, Redux, Tailwind CSS
 Backend: Node.js, Express.js
 Database: MySQL (using mysql2 library)
