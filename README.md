@@ -20,7 +20,6 @@ Admin Panel: Admins can manage users, courses, and payments.
 
 
 # Tech-Stack
-
 Frontend: React.js, Redux, Tailwind CSS
 Backend: Node.js, Express.js
 Database: MySQL (using mysql2 library)
@@ -45,15 +44,6 @@ The E-Learning Management System is an online platform that allows students to a
 - Progress Tracking: Students can track their progress in enrolled courses, view completed lectures, and continue from where they left off.
 
 - Admin Panel: Admins can manage users, courses, and payments.
-
-
-# Tech-Stack
-- Frontend: React.js, Redux, Tailwind CSS
-- Backend: Node.js, Express.js
-- Database: MySQL (using mysql2 library)
-- Authentication: JWT (JSON Web Tokens)
-- Payment Gateway: Stripe API
-- Version Control: Git, GitHub
 
 
 
