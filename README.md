@@ -20,12 +20,12 @@ Admin Panel: Admins can manage users, courses, and payments.
 
 
 ## Tech-Stack
-Frontend: React.js, Redux, Tailwind CSS
-Backend: Node.js, Express.js
-Database: MySQL (using mysql2 library)
-Authentication: JWT (JSON Web Tokens)
-Payment Gateway: Stripe API
-Version Control: Git, GitHub
+- Frontend: React.js, Redux, Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: MySQL (using mysql2 library)
+- Authentication: JWT (JSON Web Tokens)
+- Payment Gateway: Stripe API
+- Version Control: Git, GitHub
 
 This is a full-stack E-Learning Management System built using React.js, Node.js, Express.js, and MongoDB/MySQL. It allows students to learn online and instructors to upload and manage courses.
 
