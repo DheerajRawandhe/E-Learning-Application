@@ -1,5 +1,5 @@
 # E-Learning
-<<<<<<< HEAD
+
 This is a full-stack E-Learning Management System built using React.js, Node.js, Express.js, and MySQL. It allows students to learn online and instructors to upload and manage courses.
 
 The E-Learning Management System is an online platform that allows students to access courses, track their progress, and make payments for course enrollments. Instructors can upload, manage, and organize their courses, including lectures, assignments, and quizzes. This project is built using React.js, Node.js, Express.js, and MySQL.
@@ -19,14 +19,14 @@ Progress Tracking: Students can track their progress in enrolled courses, view c
 Admin Panel: Admins can manage users, courses, and payments.
 
 
-# Tech-Stack
-Frontend: React.js, Redux, Tailwind CSS
-Backend: Node.js, Express.js
-Database: MySQL (using mysql2 library)
-Authentication: JWT (JSON Web Tokens)
-Payment Gateway: Stripe API
-Version Control: Git, GitHub
-=======
+## Tech-Stack
+- Frontend: React.js, Redux, Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: MySQL (using mysql2 library)
+- Authentication: JWT (JSON Web Tokens)
+- Payment Gateway: Stripe API
+- Version Control: Git, GitHub
+
 This is a full-stack E-Learning Management System built using React.js, Node.js, Express.js, and MongoDB/MySQL. It allows students to learn online and instructors to upload and manage courses.
 
 The E-Learning Management System is an online platform that allows students to access courses, track their progress, and make payments for course enrollments. Instructors can upload, manage, and organize their courses, including lectures, assignments, and quizzes. This project is built using React.js, Node.js, Express.js, and MongoDB/MMySQL.
@@ -46,13 +46,4 @@ The E-Learning Management System is an online platform that allows students to a
 - Admin Panel: Admins can manage users, courses, and payments.
 
 
-# Tech-Stack
-- Frontend: React.js, Redux, Tailwind CSS
-- Backend: Node.js, Express.js
-- Database: MySQL (using mysql2 library)
-- Authentication: JWT (JSON Web Tokens)
-- Payment Gateway: Stripe API
-- Version Control: Git, GitHub
-
->>>>>>> b2ff65130b3460b9c42e674d8ea760187cdc41b3
 
