@@ -85,7 +85,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex md:hidden items-center justify-between px-4 h-full">
-        <h1 className="font-extrabold text-2xl e-lern">E-learning</h1>
+        <h1 onClick={() => navigate("/")} className="font-extrabold text-2xl e-lern">E-learning</h1>
         <MobileNavbar user={user}/>
       </div>
     </div>
@@ -131,11 +131,54 @@ const MobileNavbar = ({user}) => {
           <DarkMode />
         </SheetHeader>
         <Separator className="mr-2" />
-        <nav className="flex flex-col space-y-4">
+        {/* <nav className="flex flex-col space-y-4">
           <Link to="/my-learning">My Learning</Link>
           <Link to="/profile">Edit Profile</Link>
           <p onClick={logoutHandler}>Log out</p>
-        </nav>
+        </nav> */}
+
+         <div className="flex items-center gap-8">
+          {user ? (
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Avatar>
+                  <AvatarImage
+                  className="e-lern"
+                    src={user?.photoUrl || "https://github.com/shadcn.png"}
+                    alt="@shadcn"
+                  />
+                  <AvatarFallback>CN</AvatarFallback>
+                </Avatar>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="w-56">
+                <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                <DropdownMenuGroup>
+                  <DropdownMenuItem>
+                    <Link to="my-learning">My learning</Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem>
+                    <Link to="profile">Edit Profile</Link>{" "}
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={logoutHandler}>Log out</DropdownMenuItem>
+                 </DropdownMenuGroup>
+                {user?.role === "instructor" && (
+                  <>
+                    <DropdownMenuSeparator />
+                    <DropdownMenuItem><Link to="/admin/dashboard">Dashboard</Link></DropdownMenuItem>
+                  </>
+                )}
+              </DropdownMenuContent>
+            </DropdownMenu>
+          ) : (
+            <div className="flex items-center gap-2">
+              <Button variant="outline" onClick={() => navigate("/login")}>Login</Button>
+              <Button onClick={() => navigate("/login")}>Signup</Button>
+            </div>
+          )}
+        </div>
+
+        
         {user?.role === "instructor" && (
           <SheetFooter>
             <SheetClose asChild>

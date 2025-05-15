@@ -84,7 +84,8 @@ const CourseDetail = () => {
               </div>
               <h1>Lecture title : {course.courseTitle}</h1>
               <Separator className="my-2" />
-              <h1 className="text-lg md:text-xl font-semibold">Course Price : ₹{course.coursePrice.toLocaleString()}</h1>
+              {/* <h1 className="text-lg md:text-xl font-semibold">Course Price : ₹{course.coursePrice.toLocaleString()}</h1> */}
+              <h1 className="text-lg md:text-xl font-semibold">Course Price : ₹{course.coursePrice}</h1>
             </CardContent>
             <CardFooter className="flex justify-center p-4">
               {purchased ? (
