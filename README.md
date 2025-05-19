@@ -6,15 +6,15 @@ The E-Learning Management System is an online platform that allows students to a
 
 
 ## Features
-Student Registration & Login: Students can create an account and log in securely using JWT authentication.
+- Student Registration & Login: Students can create an account and log in securely using JWT authentication.
 
-Course Enrollment: Students can view available courses, enroll, and track their progress.
+- Course Enrollment: Students can view available courses, enroll, and track their progress.
 
-Instructor Dashboard: Instructors can create and manage courses, upload videos, and manage student enrollments.
+- Instructor Dashboard: Instructors can create and manage courses, upload videos, and manage student enrollments.
 
-Stripe Integration: Secure online payments for course enrollment using Stripe.
+- Stripe Integration: Secure online payments for course enrollment using Stripe.
 
-Progress Tracking: Students can track their progress in enrolled courses, view completed lectures, and continue from where they left off.
+- Progress Tracking: Students can track their progress in enrolled courses, view completed lectures, and continue from where they left off.
 
 Admin Panel: Admins can manage users, courses, and payments.
 
