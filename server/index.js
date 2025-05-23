@@ -17,16 +17,16 @@ connectDB();
 app.use(express.json());
 app.use(cookieParser());
 
-// app.use(cors({
-//     origin:"http://localhost:5173",
-//     credentials:true
-// }));
-
-
 app.use(cors({
-  origin: 'https://e-learning-n74g.onrender.com/',
-  credentials: true
+    origin:"http://localhost:5173",
+    credentials:true
 }));
+
+
+// app.use(cors({
+//   origin: 'https://e-learning-n74g.onrender.com/',
+//   credentials: true
+// }));
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
