@@ -17,11 +17,30 @@ connectDB();
 app.use(express.json());
 app.use(cookieParser());
 
+
 app.use(cors({
     origin:"http://localhost:5173",
   // origin: "https://e-learning-n74g.onrender.com",
     credentials:true
 }));
+
+
+//=======Localhost=======// 
+// app.use(cors({
+//     origin:"http://localhost:5173",
+//     credentials:true
+// }));
+
+
+
+// -------------- Public deploye -----------//
+// app.use(cors({
+//   origin: 'https://your-frontend-url.onrender.com',
+//   credentials: true
+// }));
+
+
+>>>>>>> 19b4a80 (add all changes)
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
