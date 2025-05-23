@@ -1,7 +1,11 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+import server from "../../environment.js";
 
-const COURSE_API = "http://localhost:8080/api/v1/course";
-// const COURSE_API = "https://e-learning-backend.onrender.com/api/v1/course";
+const COURSE_API  = `${server}/api/v1/course`;   // actual host backend
+
+// const COURSE_API = "http://localhost:8080/api/v1/course";    //real
+
+// const COURSE_API = "https://e-learning-backend.onrender.com/api/v1/course";    //demo
 
 
 export const courseApi = createApi({reducerPath: "courseApi",
