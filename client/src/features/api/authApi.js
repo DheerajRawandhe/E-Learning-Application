@@ -2,7 +2,9 @@ import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 import { userLoggedIn, userLoggedOut } from "../authSlice";
 
 // const USER_API = "http://localhost:8080/api/v1/user/"   // Localhost -> my laptop
-const USER_API = import.meta.env.VITE_API_URL;        // public -> all deployee
+// const USER_API = import.meta.env.VITE_API_URL;        // public -> all deployee
+const USER_API =`https://e-learningbackend-zow1.onrender.com/`;        // public -> all deployee
+
 
 
 export const authApi = createApi({reducerPath:"authApi",
