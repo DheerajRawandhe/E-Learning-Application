@@ -1,6 +1,6 @@
 let IS_PROD = true;
 const server = IS_PROD ?
-    "https://e-learning-bck.onrender.com/" :
+    "https://e-learning-bck.onrender.com" :
 
     "http://localhost:8080"
 
