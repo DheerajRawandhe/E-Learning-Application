@@ -14,7 +14,7 @@ The E-Learning Management System is an online platform that allows students to a
 - Stripe Integration: Secure online payments for course enrollment using Stripe.
 
 - Progress Tracking: Students can track their progress in enrolled courses, view completed lectures, and continue from where they left off.
-- 
+
 - Admin Panel: Admins can manage users, courses, and payments.
 
 
