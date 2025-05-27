@@ -5,7 +5,7 @@ import server from "../../environment.js";
 
 const USER_API = `${server}/api/v1/user/`
 
-// const USER_API = "http://localhost:8080/api/v1/user/"            // localhost 
+// const USER_API = "http://localhost:8080/api/v1/user/"        // localhost 
 
 
 
