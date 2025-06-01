@@ -27,7 +27,7 @@ The E-Learning Management System is an online platform that allows students to a
 
 This is a full-stack E-Learning Management System built using React.js, Node.js, Express.js, and MongoDB/MySQL. It allows students to learn online and instructors to upload and manage courses.
 
-The E-Learning Management System is an online platform that allows students to access courses, track their progress, and make payments for course enrollments. Instructors can upload, manage, and organize their courses, including lectures, assignments, and quizzes. This project is built using React.js, Node.js, Express.js, and MongoDB/MMySQL.
+The E-Learning Management System is an online platform that allows students to access courses, track their progress, and make payments for course enrollments. Instructors can upload, manage, and organize their courses, including lectures, assignments, and quizzes. This project is built using React.js, Node.js, Express.js, and MongoDB/MySQL.
 
 
 ## Features
