@@ -44,5 +44,3 @@ The E-Learning Management System is an online platform that allows students to a
 
 - Admin Panel: Admins can manage users, courses, and payments.
 
-
-
