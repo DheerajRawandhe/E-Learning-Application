@@ -24,7 +24,7 @@ The E-Learning Management System is an online platform that allows students to a
 - Authentication: JWT (JSON Web Tokens)
 - Payment Gateway: Stripe API
 - Version Control: Git, GitHub
-- Tool : Postmann
+- Tool : Postman
   
 This is a full-stack E-Learning Management System built using React.js, Node.js, Express.js, and MongoDB/MySQL. It allows students to learn online and instructors to upload and manage courses.
 
