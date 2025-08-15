@@ -36,6 +36,7 @@ export const authApi = createApi({reducerPath:"authApi",
                     console.log(error);
                 }}
         }),
+
         loadUser: builder.query({
             query: () => ({url:"profile", method:"GET"}),
             async onQueryStarted(_, {queryFulfilled, dispatch}) {
@@ -56,3 +57,4 @@ export const {
     useLoadUserQuery,
     useUpdateUserMutation
 } = authApi;
+
