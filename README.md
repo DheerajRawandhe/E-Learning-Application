@@ -1,1 +1,1 @@
-## E-Learning-Application : Tech-Satck - MERN
+## E-Learning-Application : Tech-Stack - MERN
