@@ -1,4 +1,4 @@
-## E-Learning-Application :
+## E-Learning-Application :-
 This is an E-Learning Management System created as my Final Year BCA Project.
 The goal of this system is to provide an online platform where students can purchase courses and learn from instructors through video lectures, notes, and progress tracking.
 
