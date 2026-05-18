@@ -13,7 +13,7 @@ The goal of this system is to provide an online platform where students can purc
 - Add / Manage Courses & Lectures
 - Responsive UI (React + Redux)
 
-# Tech Used :
+# Tech Used :-
 
 - Frontend: React.js, Redux, JavaScript, HTML, CSS
 - Backend: Node.js, Express.js
