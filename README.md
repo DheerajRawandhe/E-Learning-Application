@@ -17,6 +17,6 @@ The goal of this system is to provide an online platform where students can purc
 
 - Frontend: React.js, Redux, JavaScript, HTML, CSS
 - Backend: Node.js, Express.js
-- Database: MySQL
+- Database: MySQL/ MongoDB
 - Payment Gateway: Stripe
 - Authentication: JWT
